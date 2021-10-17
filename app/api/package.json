@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "Server for FullStackApp",
+  "author": "ShubhankarKG <shubhankar.gupto.11@gmail.com>",
+  "keywords": [
+    "express"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShubhankarKG/FullStackApp"
+  },
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "pino": "^6.13.3",
+    "pino-http": "^5.8.0",
+    "pino-pretty": "^7.0.1"
+  }
+}
